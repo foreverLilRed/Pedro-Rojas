@@ -512,9 +512,6 @@ video {
 }
 
 @media screen and (max-width: 1000px) {
-    body{
-        opacity: 0;
-    }
     .ch {
         flex-wrap: wrap;
     }
