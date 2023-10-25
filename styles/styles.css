@@ -9,19 +9,19 @@
 
 .scroll-section {
     opacity: 0;
-    height: 0; /* Inicia con altura 0 */
-    transition: opacity 0.8s ease, height 0.8s ease; /* Agrega transiciones */
+    height: 0;
+    transition: opacity 0.8s ease, height 0.8s ease; 
 }
 
 .scroll-section.visible {
     opacity: 1;
-    height: auto; /* Altura automática para mostrar todo el contenido */
+    height: auto; 
 }
 
 
 body {
     position: relative;
-    background-image: url('mountains.jpg');
+    background-image: url('../sources/mountains.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -76,7 +76,7 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    padding: 10px; /* Añadido para un área de clic más grande */
+    padding: 10px;
     transition: color 0.3s ease;
 }
 
@@ -149,9 +149,9 @@ nav a:hover {
     display: block;
     width: 90%;
     height: 3px;
-    background-color: #333; /* Puedes cambiar el color de la línea */
-    margin: 0 auto; /* Centra la línea horizontalmente */
-    margin-top: 10px; /* Espacio entre el texto y la línea */
+    background-color: #333; 
+    margin: 0 auto;
+    margin-top: 10px; 
 }
 
 .contenedor{
@@ -178,13 +178,13 @@ nav a:hover {
 
 
 .habilidad {
-    width: 8ch; /* Ajusta el tamaño según sea necesario */
+    width: 8ch;
     height: auto;
     margin: 0;
 }
 
 .habilidades > h4 {
-    font-size: 1.8em; /* Ajusta el tamaño del texto según sea necesario */
+    font-size: 1.8em; 
     margin: 5px 0;
     color: white;
     margin-bottom: 0;
