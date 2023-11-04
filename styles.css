@@ -21,7 +21,7 @@
 
 body {
     position: relative;
-    background-image: url('../sources/mountains.jpg');
+    background-image: url('sources/mountains.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
